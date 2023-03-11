@@ -1,0 +1,144 @@
+.accordion {
+  margin: 20px 0;
+  border-radius: 20px;
+}
+
+.accordion .accordion-body {
+  width: calc(100% - 40px);
+  margin: 0 auto;
+  height: 0;
+  color: rgba(0, 0, 0, 0);
+  background: #edf2ec;
+  line-height: 18px;
+  padding: 0 30px;
+  box-sizing: border-box;
+  transition: color 0.5s, padding 0.5s;
+  overflow: hidden;
+  font-family: Verdana, sans-serif;
+  font-size: 16px;
+}
+.accordion .accordion-body p {
+  margin: 0 0 10px;
+}
+.accordion label {
+  border-radius: 20px;
+  cursor: pointer;
+  background-color: #293241;
+  display: block;
+  padding: 15px 20px;
+  width: 100%;
+  color: #bfe2ff;
+  font-weight: 300;
+  box-sizing: border-box;
+  z-index: 100;
+  font-family: Verdana, sans-serif;
+  font-size: 18px;
+  margin: 0 0 5px;
+  transition: color 0.35s;
+}
+.accordion label:hover {
+  color: #fff;
+}
+.accordion input {
+  display: none;
+}
+.accordion label:before {
+  content: "\276F";
+  float: right;
+}
+.accordion input:checked + label {
+  background-color: #293241;
+  color: #fff;
+}
+.accordion input:checked + label:before {
+  transition: transform 0.35s;
+  transform: rotate(90deg);
+}
+.accordion input:checked + label + .accordion-body {
+  height: auto;
+  margin-top: -5px;
+  color: #000;
+  padding: 20px 30px 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.accordion {
+  margin: 20px 0;
+}
+.accordion .accordion-body {
+  width: calc(100% - 40px);
+  margin: 0 auto;
+  height: 0;
+  color: rgba(0, 0, 0, 0);
+  background-color: #3a5a80;
+  line-height: 18px;
+  padding: 0 30px;
+  box-sizing: border-box;
+  transition: color 0.5s, padding 0.5s;
+  overflow: hidden;
+  font-family: Verdana, sans-serif;
+  font-size: 16px;
+}
+.accordion .accordion-body p {
+  margin: 0 0 10px;
+}
+.accordion label {
+  cursor: pointer;
+  background-color: #293241;
+  display: block;
+  padding: 15px 20px;
+  width: 100%;
+  color: #bfe2ff;
+  font-weight: 300;
+  box-sizing: border-box;
+  z-index: 100;
+  font-family: Verdana, sans-serif;
+  font-size: 18px;
+  margin: 0 0 5px;
+  transition: color 0.35s;
+}
+.accordion label:hover {
+  color: #fff;
+}
+.accordion input {
+  display: none;
+}
+.accordion label:before {
+  content: "\276F";
+  float: right;
+}
+.accordion input:checked + label {
+  background-color: #293241;
+  color: #fff;
+}
+.accordion input:checked + label:before {
+  transition: transform 0.35s;
+  transform: rotate(90deg);
+}
+.accordion input:checked + label + .accordion-body {
+  height: auto;
+  margin-top: -5px;
+  color: #000;
+  padding: 20px 30px 10px;
+}
+
+.DiCaprio {
+  width: 500px;
+}
+
+.explorer {
+  width: 500px;
+}
+
+.Vitaly {
+  width: 500px;
+}
+
+.project {
+  width: 500px;
+}
+
+.relax {
+  width: 500px;
+}
