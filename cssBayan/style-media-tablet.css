@@ -1,0 +1,8 @@
+@media (max-width: 1180px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+  .accordion label {
+    font-size: 0.8rem;
+  }
+}

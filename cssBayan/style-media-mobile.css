@@ -1,0 +1,26 @@
+@media (max-width: 568px) {
+  h1 {
+    font-size: 1rem;
+  }
+  .accordion label {
+    font-size: 0.7rem;
+  }
+  .DiCaprio {
+    width: 100%;
+  }
+  .explorer {
+    width: 100%;
+  }
+
+  .Vitaly {
+    width: 100%;
+  }
+
+  .project {
+    width: 100%;
+  }
+
+  .relax {
+    width: 100%;
+  }
+}
